@@ -1,0 +1,35 @@
+.main-blck {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.h1 {
+    color: #FFFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.card-game {
+    display: flex;
+    width: 450px;
+    height: 305px;
+    border-radius: 20px;
+    border: 4px solid #B00564;
+    background: linear-gradient(102deg, #4D042C 72.06%, rgba(223, 207, 247, 0.00) 177.57%);
+    padding: 34px 30px 22px 29px;
+}
+
+.game-img {
+    width: 150px;
+    height: 140px;
+    border-radius: 5px;
+    
+}
+
+.card-content {
+    margin-left: 20px;
+}

@@ -1,0 +1,111 @@
+body {
+    background: #35151F;
+    background-image: url(../img/bckgrnd-logo.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.site-login {
+    width: 740px;
+    height: 647px;
+    border-radius: 50px;
+    background: rgba(73, 26, 42, 0.40);
+    box-shadow: 11px 7px 10px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(17.5px);
+    padding: 85px 150px 57px 150px;
+}
+
+.desc-h1 {
+    color: #777676;
+    margin-bottom: 35px;
+}
+
+.input-txt {
+    font-family: 'Roboto-flex';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--txt-color);
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+
+.input-style {
+    color: var(--txt-color);
+    outline: none;
+    width: 437px;
+    height: 64px;
+    background: none;
+    border-radius: 8px;
+    border: 1px solid #958D8E;
+    margin-bottom: 20px;
+}
+
+.input-style:focus {
+    color: var(--txt-color);
+    outline: none;
+    background: none;
+}
+
+.error-input {
+    margin-top: -15px;
+    color: #d46767;
+    width: 437px;
+}
+
+.form-control.is-invalid {
+    background: none;
+}
+
+.btn-submit {
+    width: 437px;
+    height: 52px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 8px;
+    background: #931D45;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto-flex';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    outline: none;
+    margin-top: 20px;
+}
+
+.btn-submit:hover {
+    transition: .5s;
+    background: #80183a;
+}
+
+.after-btn {
+    display: flex;
+    width: 437px;
+}
+
+.no-reg-div {
+    display: flex;
+    width: 214px;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.reg-href {
+    text-decoration: none;
+    color: #BBBBBB;
+    font-family: 'Roboto-flex';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.reg-href:hover {
+    color: #BBBBBB;
+    text-decoration: underline;
+}

@@ -1,0 +1,39 @@
+.site-signup {
+    width: 1074px;
+    height: 647px;
+    border-radius: 50px;
+    background: rgba(73, 26, 42, 0.40);
+    box-shadow: 11px 7px 10px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(17.5px);
+    padding: 50px 75px 30px 75px;
+}
+
+.form-columns {
+    width: 924px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-h1-sign {
+    color: #777676;
+    margin-bottom: 20px;
+}
+
+.form-group > div {
+    width: 924px;
+    display: flex;
+    justify-content: center;
+}
+
+.after-btn {
+    display: flex;
+    width: 924px;
+}
+
+.no-auth-div {
+    display: flex;
+    width: 165px;
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: space-between;
+}

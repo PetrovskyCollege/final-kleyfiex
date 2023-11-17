@@ -1,0 +1,103 @@
+#header {
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    height: 100vh;
+    border-right: 1px solid #3E3E3E;
+}
+
+.logo {
+    width: 203px;
+}
+
+#sidebar {
+    margin-top: 50px;
+    margin-left: -15px;
+}
+
+.nav-head {
+    flex-direction: column;
+}
+
+.h-menu {
+    color: #E8E8E8;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.h-menu:hover {
+    color: #E8E8E8;
+}
+
+.menu-item-h {
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.menu-item:nth-child(6) {
+    margin-bottom: 50px;
+}
+
+.menu-item > a {
+    display: flex;
+    font-size: 16px;
+}
+
+.menu-item > a:hover {
+    color: white;
+}
+
+.icon-home::before {
+    content: url(../img/icons/home.svg);
+    margin-right: 12px;
+} 
+
+.icon-my::before {
+    content: url(../img/icons/play.svg);
+    margin-right: 12px;
+} 
+
+.icon-list::before {
+    content: url(../img/icons/list.svg);
+    margin-right: 12px;
+} 
+
+.icon-wishlist::before {
+    content: url(../img/icons/heart.svg);
+    margin-right: 12px;
+} 
+
+.icon-add::before {
+    content: url(../img/icons/add.svg);
+    margin-right: 12px;
+} 
+
+.icon-profile::before {
+    content: url(../img/icons/profile.svg);
+    margin-right: 12px;
+} 
+
+.icon-statistic::before {
+    content: url(../img/icons/statistic.svg);
+    margin-right: 12px;
+} 
+
+.icon-exit::before {
+    content: url(../img/icons/exit.svg);
+    margin-right: 12px;
+} 
+
+
+.active {
+    color: white;
+}
+
+a.active::before {
+    filter: brightness(200%);
+}
