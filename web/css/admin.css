@@ -1,0 +1,35 @@
+.welcome-man {
+    margin-left: 300px;
+}
+
+.custom-grid-view {
+    color: white;
+}
+
+.custom-grid-view th a{
+    color: white;
+}
+
+
+.user-form {
+    width: 300px;
+    margin: 0 auto;
+    color: white;
+}
+
+.user-form > form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+}   
+
+.custom-detail-view {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.custom-detail-view th {
+    width: 150px;
+    height: 35px;
+}
